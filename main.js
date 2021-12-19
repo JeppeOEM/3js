@@ -80,7 +80,7 @@ const pointSize = new THREE.PointsMaterial(
 
 const particlesGeometry = new THREE.BufferGeometry;
 
-const particlesCnt = 100000;
+const particlesCnt = 10000;
 
 //gemmer et random kordinat til både x y z på alle partikler i et array
 const posArray = new Float32Array(particlesCnt * 3);
